@@ -28,11 +28,11 @@ expander.write('問い合わせ2の回答')
 expander = st.expander('問い合わせ3')
 expander.write('問い合わせ3の回答')
 
- text = st.text_input('あなたの趣味を教えて下さい。')
- condition = st.slider('あなたの今の調子は？',0,100,50)
+text = st.text_input('あなたの趣味を教えて下さい。')
+condition = st.slider('あなたの今の調子は？',0,100,50)
 
- 'あなたの趣味：',text
- 'コンディション：',condition
+'あなたの趣味：',text
+'コンディション：',condition
 
 # if st.checkbox('Show Image'):
 #     img = Image.open('2shots.png')
